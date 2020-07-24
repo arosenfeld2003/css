@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  padding: 0 3em 0 3em;
+}
+
+h1 {
+  background-color: #00B7EB;
+  padding: 0 3em 0 3em;
+}
+
+.hero {
+  background-color: #FF0000;
+  padding: 0 3em 0 3em;
+}
+
+.content {
+  background-color: #00FF00;
+  padding: 0 3em 0 3em;
+}
+
+.sidebar {
+  background-color: #800080;
+  padding: 0 3em 0 3em;
+}
+
+.footer {
+  background-color: #444444;
+  padding: 0 3em 0 3em;
+}

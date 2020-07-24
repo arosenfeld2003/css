@@ -1,0 +1,573 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+#header-top {
+  margin-left: auto;
+  margin-right: auto;
+  height: 65px;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-top a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.sign-in-link, .header-btn-link {
+  color: rgba(90, 118, 144, 1);
+  font-size: 15.8px;
+}
+
+.sign-in-link:hover {
+  text-decoration: none;
+  color: rgba(84, 108, 131, 1);
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+}
+
+.header-btn-border {
+  display: flex;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-color: rgba(90, 118, 144, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-left: .25em;
+}
+
+.header-btn-link:hover {
+  text-decoration: none;
+  border-color: rgba(90, 118, 144, 1);
+  color: rgba(84, 108, 131, 1);
+}
+
+.header-btn-link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 8px;
+  line-height: 20px;
+}
+
+#header-btm {
+  background-color: rgba(53, 88, 118, 1);
+}
+
+#header-btm .row {
+  margin-left: auto;
+  margin-right: auto;
+  height: 65px;
+  background-color: rgba(53, 88, 118, 1);
+}
+
+.nav-list {
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  list-style-type: none;
+  overflow-x: auto;
+}
+
+.nav-item a {
+  white-space: nowrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+  color:rgb(203, 221, 234) !important;
+}
+
+.nav-item:nth-last-child(2) {
+  position: relative;
+}
+
+.nav-list a:hover {
+  color: rgb(236, 240, 243) !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#byline {
+  position: relative;
+  display: flex;
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+}
+
+#title {
+  padding-top: 20px;
+  line-height: 48px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#byline {
+  display: flex;
+  justify-content: center;
+}
+
+h1 > p {
+  position: relative;
+  width: 680px;
+  text-align: left;
+  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.84);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+
+#info {
+  display: flex;
+}
+
+.pic {
+  display: flex;
+  align-items: flex-start;
+}
+
+.pic img {
+  position: relative;
+  top: .1em;
+  left: 15%;
+  border-radius: 50%;
+}
+
+.pic svg {
+  position: absolute;
+  fill: rgba(3, 168, 124, 1);
+}
+
+.by-line-links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.name {
+  text-align: center;
+  max-width: 27%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name .date {
+  line-height: 0em;
+}
+
+.name .date a {
+  margin-left: 0em;
+  color: rgb(128,128,128);
+}
+
+.name a {
+  display: flex;
+  width: 275px;
+  text-align: left;
+  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.84);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+.name .date a::after {
+  content: "\00a0 \2022 \00a0 5 min read";
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: .25em;
+  position: relative;
+  padding-top: .25em;
+}
+
+.border-follow {
+  display: flex;
+  margin-left: .5em;
+  box-sizing: border-box;
+  border-color: rgba(0, 0, 0, 0.84);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.border-follow a {
+  display: flex;
+  font-size: 15px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.84);
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.border-follow:hover a {
+  text-decoration: none;
+  fill: rgba(0, 0, 0, 0.97);
+  cursor: pointer;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  margin-left: .75em;
+}
+
+.star svg {
+  vertical-align: .35em;
+}
+
+.fab, .fa-linkedin {
+  color: #050115
+}
+
+.facebook {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+.medium {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content p {
+  margin-top: 2em;
+  font-size: 21px;
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.84);
+  word-break: break-word;
+  font-style: normal;
+}
+
+#content h1 {
+  margin-bottom: -0.28em;
+}
+
+#top p {
+  margin-top: 1em;
+}
+
+#content h1 {
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.12;
+  margin-bottom: -0.28em;
+}
+
+blockquote {
+  margin-left: -20px;
+  padding-left: 23px;
+  font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.84) 3px 0px 0px 0px inset;
+}
+
+blockquote p mark {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  background-color: rgb(233, 242, 253);
+  letter-spacing: -0.003em;
+  font-style: italic;
+}
+
+.numbered-list {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 21px;
+  margin-top: 2em;
+  margin-bottom: -0.46em;
+  padding-left: 0px;
+  margin-left: 30px;
+  line-height: 1.58;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.numbered-heading {
+  margin-top: 1.95em;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.12;
+}
+
+.bullet-list {
+  padding: 0;
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 21px;
+  margin-top: 2em;
+  margin-left: 30px;
+  letter-spacing: -0.004em;
+  line-height: 1.58;
+  margin-bottom: 2em;
+}
+
+#content h2 {
+  margin-top: 1.72em;
+  margin-left: 0;
+  margin-bottom: 0em;
+  font-size: 26px;
+  line-height: 1.18;
+}
+
+.paragraph-image {
+  display: flex;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 2em;
+  line-height: 1.4;
+  font-size: 16px;
+  max-width: 728px;
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+figure {
+  margin-bottom: 2em;
+}
+
+.internal-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.small-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.shift-right {
+  margin-left: 18em;
+}
+
+.shift-left {
+  margin-right: 10em;
+}
+
+.heading {
+  margin-top: 2em;
+}
+
+.references {
+  color: black;
+}
+
+.references:hover {
+  color: black;
+}
+
+.salutation {
+  margin-bottom: 2em;
+}
+
+.tags {
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
+}
+
+.tags li {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.tags a {
+  line-height: 22px;
+  background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  display: block;
+  font-weight: 400;
+}
+
+.claps {
+  margin-left: 1em;
+  cursor: pointer;
+  padding: 0px;
+  background: transparent;
+  overflow: visible;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.clap-button, .clap-button:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 2em;
+}
+
+.footer-pic {
+  position: absolute;
+  display: block;
+  font-weight: 400;
+  margin-top: 2em;
+}
+
+.vijini {
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+  display: block;
+  margin-left: 1.25em;
+  margin-top: 2.35em;
+}
+
+#written-by p, #TDS p {
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  line-height: 20px;
+  display: block;
+  color: rgba(0, 0, 0, 0.54);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 0em;
+  max-width: 450px;
+}
+
+#written-by .upper p {
+  margin-top: 3em;
+} 
+
+#written-by a, #TDS a {
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(0,0,0,0.8);
+
+}
+
+#written-by h2, #TDS h2 {
+  margin-top: 0em;
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+
+#written-by h2 a:hover, #TDS h2 a:hover {
+  text-decoration: none;
+}
+
+#written-by .lower p, #TDS .lower p {
+  margin-top: 0em;
+}
+
+#first-follow, #second-follow {
+  padding-top: 4em
+}
+
+.footer-follow {
+  border-color: rgb(102, 138, 170);
+  padding: 4px 12px;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0px center;
+  box-sizing: border-box;
+}
+
+.footer-follow a {
+  fill: rgb(102, 138, 170);
+  color: rgb(90, 118, 144);
+  letter-spacing: 0px;
+  font-size: 15.8px;
+  line-height: 20px;
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer-follow a:hover {
+  text-decoration: none;
+}
+
+.footer-image img {
+  margin-left: 1.3em;
+  margin-top: 3em;
+}
+
+.data-science {
+  padding-bottom: 2em;
+}
+
+#TDS {
+  margin-top: 3.5em;
+  margin-left: 1em;
+}
+
+.responses {
+  padding-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  padding-bottom: 5em;
+}
+
+.responses a {
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-bottom: 5em;
+  border: 1px solid rgb(102, 138, 170);
+  color: rgb(102, 138, 170);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+}
+
